@@ -9,11 +9,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  background-color: #00b894;
 }
 
 .App{
@@ -31,12 +27,14 @@ code {
 }
 
 .plus, .minus{
-  background-color: red;
+  user-select: none;
+  background-color: rgb(244, 24, 24);
   padding: 0.5rem 2rem;
+  cursor: pointer;
 }
 
-.minus{
-  background-color: green;
+.plus{
+  background-color: rgb(13, 161, 13);
 }
 
 .counter{
